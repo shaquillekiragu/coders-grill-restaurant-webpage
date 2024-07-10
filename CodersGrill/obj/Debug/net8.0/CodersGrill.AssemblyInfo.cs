@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodersGrill")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd153cf92402315666b6b4f0e997891b1398da52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ffa0cd418c10bf7ba70abfb3e235a29c4878288")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodersGrill")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodersGrill")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
