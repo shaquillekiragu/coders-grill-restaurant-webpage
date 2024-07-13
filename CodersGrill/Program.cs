@@ -1,10 +1,17 @@
-using CodersGrill.Components;
+// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
+// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
+// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
+// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
+
+// using CodersGrill.Components;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -21,7 +28,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+app.UseRouting();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();

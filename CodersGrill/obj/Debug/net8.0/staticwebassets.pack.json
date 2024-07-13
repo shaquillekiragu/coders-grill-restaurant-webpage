@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/css/foundation.min.css",
+      "PackagePath": "staticwebassets/css/foundation.min.css"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/css/slick.css",
+      "PackagePath": "staticwebassets/css/slick.css"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/foundation.min.js",
+      "PackagePath": "staticwebassets/js/foundation.min.js"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/slick.min.js",
+      "PackagePath": "staticwebassets/js/slick.min.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CodersGrill.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CodersGrill.props",
+      "PackagePath": "build\\CodersGrill.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CodersGrill.props",
+      "PackagePath": "buildMultiTargeting\\CodersGrill.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CodersGrill.props",
+      "PackagePath": "buildTransitive\\CodersGrill.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
