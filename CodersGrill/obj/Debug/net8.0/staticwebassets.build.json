@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1KzfkNH0+0N3SS9csSeLxkxHI9rKIPTn+zMIZNX8JAk=",
+  "Hash": "W7SmbhZ4KR1zUpnYyME19zRPeB1ywlmsJ8sxQiR2MEw=",
   "Source": "CodersGrill",
   "BasePath": "_content/CodersGrill",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/slick.css"
+    },
+    {
+      "Identity": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/0-header/search.svg",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "images/0-header/search.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/0-header/search.svg"
     },
     {
       "Identity": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/1-sliding-images/kitchen.jpg",

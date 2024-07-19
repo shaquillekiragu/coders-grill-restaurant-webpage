@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/css/slick.css"
     },
     {
+      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/0-header/search.svg",
+      "PackagePath": "staticwebassets/images/0-header/search.svg"
+    },
+    {
       "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/1-sliding-images/kitchen.jpg",
       "PackagePath": "staticwebassets/images/1-sliding-images/kitchen.jpg"
     },
