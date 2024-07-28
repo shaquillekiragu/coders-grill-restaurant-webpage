@@ -1,131 +1,131 @@
 {
   "Files": [
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/css/foundation.min.css",
-      "PackagePath": "staticwebassets/css/foundation.min.css"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\foundation.min.css",
+      "PackagePath": "staticwebassets\\css\\foundation.min.css"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/css/slick.css",
-      "PackagePath": "staticwebassets/css/slick.css"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/0-header/search.svg",
-      "PackagePath": "staticwebassets/images/0-header/search.svg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/1-sliding-images/kitchen.jpg",
-      "PackagePath": "staticwebassets/images/1-sliding-images/kitchen.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\0-header\\search.svg",
+      "PackagePath": "staticwebassets\\images\\0-header\\search.svg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/1-sliding-images/large-view.jpg",
-      "PackagePath": "staticwebassets/images/1-sliding-images/large-view.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/1-sliding-images/small-view.jpg",
-      "PackagePath": "staticwebassets/images/1-sliding-images/small-view.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\large-view.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\large-view.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/2-meal-images/chicken.jpg",
-      "PackagePath": "staticwebassets/images/2-meal-images/chicken.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\small-view.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/2-meal-images/duck.jpg",
-      "PackagePath": "staticwebassets/images/2-meal-images/duck.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\2-meal-images\\chicken.jpg",
+      "PackagePath": "staticwebassets\\images\\2-meal-images\\chicken.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/2-meal-images/steak.jpg",
-      "PackagePath": "staticwebassets/images/2-meal-images/steak.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\2-meal-images\\duck.jpg",
+      "PackagePath": "staticwebassets\\images\\2-meal-images\\duck.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/2-meal-images/vegan.jpg",
-      "PackagePath": "staticwebassets/images/2-meal-images/vegan.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\2-meal-images\\steak.jpg",
+      "PackagePath": "staticwebassets\\images\\2-meal-images\\steak.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/3-special-offers/bbq.jpg",
-      "PackagePath": "staticwebassets/images/3-special-offers/bbq.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\2-meal-images\\vegan.jpg",
+      "PackagePath": "staticwebassets\\images\\2-meal-images\\vegan.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/3-special-offers/burgers.jpg",
-      "PackagePath": "staticwebassets/images/3-special-offers/burgers.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\3-special-offers\\bbq.jpg",
+      "PackagePath": "staticwebassets\\images\\3-special-offers\\bbq.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/3-special-offers/platter.jpg",
-      "PackagePath": "staticwebassets/images/3-special-offers/platter.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\3-special-offers\\burgers.jpg",
+      "PackagePath": "staticwebassets\\images\\3-special-offers\\burgers.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/beverages.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/beverages.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\3-special-offers\\platter.jpg",
+      "PackagePath": "staticwebassets\\images\\3-special-offers\\platter.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/desserts.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/desserts.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\beverages.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\beverages.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/kids-menu.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/kids-menu.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\desserts.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\desserts.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/main.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/main.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\kids-menu.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\kids-menu.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/sides.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/sides.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\main.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\main.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/starters.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/starters.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\sides.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\sides.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/4-category-images/vegetarian.jpg",
-      "PackagePath": "staticwebassets/images/4-category-images/vegetarian.jpg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\starters.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\starters.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/5-icons/facebook.svg",
-      "PackagePath": "staticwebassets/images/5-icons/facebook.svg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\4-category-images\\vegetarian.jpg",
+      "PackagePath": "staticwebassets\\images\\4-category-images\\vegetarian.jpg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/5-icons/instagram.svg",
-      "PackagePath": "staticwebassets/images/5-icons/instagram.svg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\facebook.svg",
+      "PackagePath": "staticwebassets\\images\\5-icons\\facebook.svg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/images/5-icons/twitter.svg",
-      "PackagePath": "staticwebassets/images/5-icons/twitter.svg"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\instagram.svg",
+      "PackagePath": "staticwebassets\\images\\5-icons\\instagram.svg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/foundation.min.js",
-      "PackagePath": "staticwebassets/js/foundation.min.js"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\twitter.svg",
+      "PackagePath": "staticwebassets\\images\\5-icons\\twitter.svg"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/jquery.min.js",
-      "PackagePath": "staticwebassets/js/jquery.min.js"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\js\\foundation.min.js"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "/home/shaquillekiragu/0.PROGRAMMING/verto-test-project/CodersGrill/wwwroot/js/slick.min.js",
-      "PackagePath": "staticwebassets/js/slick.min.js"
+      "Id": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CodersGrill.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CodersGrill.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CodersGrill.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CodersGrill.props",
       "PackagePath": "build\\CodersGrill.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CodersGrill.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CodersGrill.props",
       "PackagePath": "buildMultiTargeting\\CodersGrill.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CodersGrill.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CodersGrill.props",
       "PackagePath": "buildTransitive\\CodersGrill.props"
     }
   ],

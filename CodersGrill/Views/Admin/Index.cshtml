@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CodersGrill.Models.TextContent>
+
+<h1>Admin - Edit Content</h1>
+
+<form method="post" asp-action="UpdateContent">
+    <table>
+        <thead>
+            <tr>
+                <th>Section</th>
+                <th>Content Type</th>
+                <th>HtmlContent</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Section</td>
+                    <td>@item.ContentType</td>
+                    <td>
+                        <textarea name="HtmlContent" rows="4" cols="50">@item.HtmlContent</textarea>
+                        <input type="hidden" name="Id" value="@item.Id" />
+                    </td>
+                    <td>
+                        <button type="submit">Save</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

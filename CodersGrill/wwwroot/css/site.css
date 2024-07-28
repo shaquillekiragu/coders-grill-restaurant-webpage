@@ -1,29 +1,16 @@
-/* .custom-img {
-  width: 100px;
-  height: auto;
+.image-slider {
+    width: 100%;
+    height: 200px;
+}
+
+/*.slider-1-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } */
 
-/* img {
-    width: 50px !important;
-    height: auto !important;
-  }
-
-.image-slider img {
-  width: 50px;
-  height: auto;
+.slider-1-img img {
+    width: 100%;
+    height: 200px;
+    /* display: block; */
 }
-
-.chefs-recommendations img {
-  width: 50px;
-  height: auto;
-}
-
-.special-offers img {
-  width: 50px;
-  height: auto;
-}
-
-.meal-categories img {
-  width: 50px;
-  height: auto;
-} */

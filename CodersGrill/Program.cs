@@ -1,36 +1,38 @@
-// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
-// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
-// REMOVE ALL COMMENTS BEFORE YOU SUBMIT PROJECT
-
-// using CodersGrill.Components;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using CodersGrill.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
+    var services = scope.ServiceProvider;
+    try
+    {
+        ApplicationDbContextSeed.Seed(services);
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred seeding the DB.");
+    }
+}
+
+if (!app.Environment.IsDevelopment()) {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
-
-app.UseAntiforgery();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
