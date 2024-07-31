@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodersGrill")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03f4bdfbf50f4f32f66f92f0e4c7a31f3352d21f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1f0d9cbf340d16f3a8e6b9ca2f670b9220819f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodersGrill")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodersGrill")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,40 +1,49 @@
 @model IEnumerable<CodersGrill.Models.TextContent>
 
-@{
-    ViewData["Title"] = "Home Page";
-}
-
-@* SECTION 1 *@
+@*SECTION 1*@
 <header>
     <div>
         @Model.Where(tc => tc.Section == 1 && tc.ContentType == "Main Header").Select(tc => Html.Raw(tc.HtmlContent)).FirstOrDefault()
     </div>
     <div>
-        <nav>
-            @Html.Raw(Model.Where(tc => tc.Section == 1 && tc.ContentType == "Navigation").ElementAtOrDefault(0)?.HtmlContent)
-            @Html.Raw(Model.Where(tc => tc.Section == 1 && tc.ContentType == "Navigation").ElementAtOrDefault(1)?.HtmlContent)
-            @Html.Raw(Model.Where(tc => tc.Section == 1 && tc.ContentType == "Navigation").ElementAtOrDefault(2)?.HtmlContent)
-        </nav>
-    </div>
-    <div>
-        <form action="#">
-            <input type="text" name="search-bar" id="search" placeholder="Search our menu...">
-            <button><img src="~/images/0-header/search.svg" alt="Click here to search"></button>
-        </form>
+        <div>
+            <nav>
+                <div class="cell small-12 medium-6 large-4">
+                    <div class="callout">
+                @Html.Raw(Model.Where(tc => tc.Section == 1 && tc.ContentType == "Navigation").ElementAtOrDefault(0)?.HtmlContent)
+                    </div>
+                </div>
+                <div class="cell small-12 medium-6 large-4">
+                    <div class="callout">
+                @Html.Raw(Model.Where(tc => tc.Section == 1 && tc.ContentType == "Navigation").ElementAtOrDefault(1)?.HtmlContent)
+                    </div>
+                </div>
+                <div class="cell small-12 medium-6 large-4">
+                    <div class="callout">
+                @Html.Raw(Model.Where(tc => tc.Section == 1 && tc.ContentType == "Navigation").ElementAtOrDefault(2)?.HtmlContent)
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <form action="#">
+                <input type="text" name="search-bar" id="search" placeholder="Search our menu...">
+                <button><img src="~/images/0-header/search.svg" alt="Click here to search"></button>
+            </form>
+        </div>
     </div>
 </header>
-<br>
-@* SECTION 2 *@
+@*SECTION 2*@
 <main>
-    <div class="image-slider single-item">
+    <div class="image-slider">
         <div class="slider-1-img">
             <img src="~/images/1-sliding-images/large-view.jpg" alt="Our Restaurant">
         </div>
         <div class="slider-1-img">
-            <img src="~/images/1-sliding-images/small-view.jpg" alt="Our Restaurant">
+            <img src="~/images/1-sliding-images/small-view-2.jpg" alt="Our Restaurant">
         </div>
         <div class="slider-1-img">
-            <img src="~/images/1-sliding-images/kitchen.jpg" alt="Our Chef cooking away in the kitchen">
+            <img src="~/images/1-sliding-images/kitchen-2.jpg" alt="Our Chef cooking away in the kitchen">
         </div>
     </div>
     <div class="chefs-recommendations">
@@ -45,31 +54,30 @@
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Name").ElementAtOrDefault(0)?.HtmlContent)
                     <img class="custom-img" style="width: 100px !important;" src="~/images/2-meal-images/chicken.jpg" alt="Our Sunday Roast">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Description").ElementAtOrDefault(0)?.HtmlContent)
-                    <a class="button" href="#">Take a look...</a>
+                    <button class="button" href="#">Take a look...</button>
                 </div>
                 <div class="cell small-12 medium-6 large-3">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Name").ElementAtOrDefault(1)?.HtmlContent)
                     <img class="custom-img" style="width: 100px !important;" src="~/images/2-meal-images/steak.jpg" alt="Our Steak Selections">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Description").ElementAtOrDefault(1)?.HtmlContent)
-                    <a class="button" href="#">Take a look...</a>
+                    <button class="button" href="#">Take a look...</button>
                 </div>
                 <div class="cell small-12 medium-6 large-3">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Name").ElementAtOrDefault(2)?.HtmlContent)
                     <img class="custom-img" style="width: 100px !important;" src="~/images/2-meal-images/duck.jpg" alt="Our Duck Delicacy">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Description").ElementAtOrDefault(2)?.HtmlContent)
-                    <a class="button" href="#">Take a look...</a>
+                    <button class="button" href="#">Take a look...</button>
                 </div>
                 <div class="cell small-12 medium-6 large-3">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Name").ElementAtOrDefault(3)?.HtmlContent)
                     <img class="custom-img" style="width: 100px !important;" src="~/images/2-meal-images/vegan.jpg" alt="Our Vegan Feast">
                     @Html.Raw(Model.Where(tc => tc.Section == 2 && tc.ContentType == "Description").ElementAtOrDefault(3)?.HtmlContent)
-                    <a class="button" href="#">Take a look...</a>
+                    <button class="button" href="#">Take a look...</button>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    @* SECTION 3 *@
+    @*SECTION 3*@
     <div class="special-offers">
         <div class="grid-container">
             <div class="grid-x grid-margin-x">
@@ -96,45 +104,43 @@
             </div>
         </div>
     </div>
-    <br />
     @*SECTION 4*@
     <div class="meal-categories">
         <div class="grid-container">
             @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Header").Select(tc => tc.HtmlContent).FirstOrDefault())
-            <div class="image-slider-2 single-item grid-x grid-margin-x">
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/starters.jpg" alt="Starters">
+            <div class="image-slider-2 grid-x grid-margin-x">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/starters.jpg" alt="Starters">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(0)?.HtmlContent)
                 </div>
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/main.jpg" alt="Mains">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/main.jpg" alt="Mains">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(1)?.HtmlContent)
                 </div>
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/desserts.jpg" alt="Desserts">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/desserts.jpg" alt="Desserts">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(2)?.HtmlContent)
                 </div>
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/vegetarian.jpg" alt="Vegan/Vegetarian">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/vegetarian.jpg" alt="Vegan/Vegetarian">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(3)?.HtmlContent)
                 </div>
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/sides.jpg" alt="Sides">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/sides.jpg" alt="Sides">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(4)?.HtmlContent)
                 </div>
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/kids-menu.jpg" alt="Kids' Menu">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/kids-menu.jpg" alt="Kids' Menu">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(5)?.HtmlContent)
                 </div>
-                <div class="cell small-6 medium-3 large-3">
-                    <img class="custom-img" style="width: 100px !important;" src="~/images/4-category-images/beverages.jpg" alt="Drinks & Beverages">
+                <div class="slider-2-img">
+                    <img src="~/images/4-category-images/beverages.jpg" alt="Drinks & Beverages">
                     @Html.Raw(Model.Where(tc => tc.Section == 4 && tc.ContentType == "Name").ElementAtOrDefault(6)?.HtmlContent)
                 </div>
             </div>
         </div>
     </div>
 </main>
-<br>
 @*SECTION 5*@
 <footer>
     <div>
