@@ -1,0 +1,52 @@
+﻿.image-slider {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.slick-track {
+    height: 100%;
+    display: flex;
+}
+
+.slick-arrow {
+    color: red;
+}
+
+.recommendation-img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.slider-1-img {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-1-img img {
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-slider-2 {
+    width: 100%;
+    height: 500px;
+}
+
+.slider-2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-2-img img {
+    width: 200px;
+    height: auto;
+    max-height: 400px;
+    display: block;
+}

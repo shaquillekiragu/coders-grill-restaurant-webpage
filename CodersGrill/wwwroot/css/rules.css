@@ -1,0 +1,55 @@
+.no-wrap {
+    display: flex;
+    flex-wrap:nowrap
+}
+
+.section-divide {
+    margin-top: 3rem;
+}
+
+.medium-divide {
+    margin-top: 2rem;
+}
+
+.small-divide {
+    margin-top: 1rem;
+}
+
+h2, h3 {
+    color: rgba(100, 100, 100, 0.75);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.center-children {
+    align-items: center
+}
+
+.expand-width {
+    width: 100%
+}
+
+.expand-height {
+    height: 100%
+}
+
+@media (width < 640px) {
+    body {
+    }
+}
+
+@media (640px <= width < 1024px) {
+    body {
+    }
+}
+
+@media (width >= 1024px) {
+    body {
+    }
+}

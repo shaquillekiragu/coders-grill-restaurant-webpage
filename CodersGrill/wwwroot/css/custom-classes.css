@@ -1,0 +1,68 @@
+﻿.custom-page {
+    max-width: 1280px;
+}
+
+/* HEADER - SECTION 1: */
+
+.custom-header-bottom {
+    width: 100%;
+}
+
+.custom-nav-list {
+
+}
+
+.custom-search-grid {
+    height: 100%;
+}
+
+.custom-search-cell-1 {
+    display: flex;
+    align-items: center;
+}
+
+.custom-search-cell-2 {
+    display: flex;
+    align-items: center;
+}
+
+.custom-search-input {
+    width: 100%;
+    height: 50%;
+    vertical-align: central;
+}
+
+.custom-search-button {
+    height: 50%;
+    vertical-align: central;
+    color: blue
+}
+
+.custom-search-icon {
+    height: 100%;
+}
+
+/* MAIN - SECTION 2: */
+
+.custom-rec-cell {
+
+}
+
+/* MAIN - SECTION 3: */
+
+.custom-special-offers {
+    background-color: rgb(200, 200, 200);
+}
+
+.custom-special-offer-cell img {
+    height: 80%;
+    object-fit: cover;
+}
+
+/* MAIN - SECTION 4: */
+
+
+
+/* FOOTER - SECTION 5: */
+
+

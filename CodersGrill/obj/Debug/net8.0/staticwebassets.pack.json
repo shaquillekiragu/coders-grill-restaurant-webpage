@@ -1,12 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\foundation.min.css",
-      "PackagePath": "staticwebassets\\css\\foundation.min.css"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\carousels.css",
+      "PackagePath": "staticwebassets\\css\\carousels.css"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\custom-classes.css",
+      "PackagePath": "staticwebassets\\css\\custom-classes.css"
+    },
+    {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\foundation.css",
+      "PackagePath": "staticwebassets\\css\\foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
+      "PackagePath": "staticwebassets\\css\\rules.css"
     },
     {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick-theme.css",
@@ -41,6 +49,14 @@
       "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen-2.jpg"
     },
     {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-3.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-4.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen-4.jpg"
+    },
+    {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen.jpg",
       "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen.jpg"
     },
@@ -51,6 +67,10 @@
     {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view-2.jpg",
       "PackagePath": "staticwebassets\\images\\1-sliding-images\\small-view-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view-3.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\small-view-3.jpg"
     },
     {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view.jpg",
@@ -129,8 +149,8 @@
       "PackagePath": "staticwebassets\\images\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\foundation.min.js",
-      "PackagePath": "staticwebassets\\js\\foundation.min.js"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\foundation.js",
+      "PackagePath": "staticwebassets\\js\\foundation.js"
     },
     {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\jquery.js",
@@ -141,8 +161,8 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\slick.min.js",
-      "PackagePath": "staticwebassets\\js\\slick.min.js"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\slick.js",
+      "PackagePath": "staticwebassets\\js\\slick.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CodersGrill.Microsoft.AspNetCore.StaticWebAssets.props",

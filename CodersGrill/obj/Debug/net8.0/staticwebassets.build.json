@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xg4Jzmh8wB6pHSbuMpdD8mFr1G+lZQhVV+wWZHgZJ2o=",
+  "Hash": "grIjZaXQWN9fnYRpFNUdF7kUcirDLjeD1EAtQ7ELwgU=",
   "Source": "CodersGrill",
   "BasePath": "_content/CodersGrill",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\foundation.min.css",
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\carousels.css",
       "SourceId": "CodersGrill",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
       "BasePath": "_content/CodersGrill",
-      "RelativePath": "css/foundation.min.css",
+      "RelativePath": "css/carousels.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\foundation.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\carousels.css"
     },
     {
-      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\custom-classes.css",
       "SourceId": "CodersGrill",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
       "BasePath": "_content/CodersGrill",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/custom-classes.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\custom-classes.css"
+    },
+    {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\foundation.css",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "css/foundation.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\foundation.css"
+    },
+    {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "css/rules.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\rules.css"
     },
     {
       "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick.css",
@@ -226,6 +264,44 @@
       "OriginalItemSpec": "wwwroot\\images\\1-sliding-images\\kitchen-2.jpg"
     },
     {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-3.jpg",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "images/1-sliding-images/kitchen-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1-sliding-images\\kitchen-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-4.jpg",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "images/1-sliding-images/kitchen-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1-sliding-images\\kitchen-4.jpg"
+    },
+    {
       "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\large-view.jpg",
       "SourceId": "CodersGrill",
       "SourceType": "Discovered",
@@ -281,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\1-sliding-images\\small-view-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view-3.jpg",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "images/1-sliding-images/small-view-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1-sliding-images\\small-view-3.jpg"
     },
     {
       "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\2-meal-images\\chicken.jpg",
@@ -625,12 +720,12 @@
       "OriginalItemSpec": "wwwroot\\images\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\foundation.min.js",
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\foundation.js",
       "SourceId": "CodersGrill",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
       "BasePath": "_content/CodersGrill",
-      "RelativePath": "js/foundation.min.js",
+      "RelativePath": "js/foundation.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,7 +736,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\foundation.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\foundation.js"
     },
     {
       "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\jquery.js",
@@ -682,12 +777,12 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\slick.min.js",
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\js\\slick.js",
       "SourceId": "CodersGrill",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
       "BasePath": "_content/CodersGrill",
-      "RelativePath": "js/slick.min.js",
+      "RelativePath": "js/slick.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -698,7 +793,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\slick.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\slick.js"
     }
   ]
 }

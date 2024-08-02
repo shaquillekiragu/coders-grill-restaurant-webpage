@@ -8,6 +8,7 @@ $(function () {
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
+            arrows: false,
         });
     } catch (error) {
         console.error('Error initializing first Slick carousel:', error);
