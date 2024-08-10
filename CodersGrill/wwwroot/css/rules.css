@@ -1,35 +1,4 @@
-.no-wrap {
-    display: flex;
-    flex-wrap:nowrap
-}
-
-.section-divide {
-    margin-top: 3rem;
-}
-
-.medium-divide {
-    margin-top: 2rem;
-}
-
-.small-divide {
-    margin-top: 1rem;
-}
-
-h2, h3 {
-    color: rgba(100, 100, 100, 0.75);
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 1.25rem;
-}
-
-.center-children {
-    align-items: center
-}
+/* GENERAL RULES: */
 
 .expand-width {
     width: 100%
@@ -39,17 +8,99 @@ h3 {
     height: 100%
 }
 
-@media (width < 640px) {
-    body {
-    }
+h1 {
+    font-family: Algerian;
 }
 
-@media (640px <= width < 1024px) {
-    body {
-    }
+h2, h3 {
+    color: rgba(10, 100, 100, 0.75);
 }
 
-@media (width >= 1024px) {
-    body {
-    }
+h2 {
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.v-center-children {
+    display: flex;
+    align-items: center;
+}
+
+/* MARGINS: */
+
+.section-divide {
+    margin-top: 3rem;
+}
+
+.small-divide-top {
+    margin-top: 1rem;
+}
+
+.small-divide-bottom {
+    margin-bottom: 1rem;
+}
+
+.no-margin-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.main-margins {
+    margin: 0 12.5% 0 12.5%;
+}
+
+.margin-right-1 {
+    margin-right: 8.333%;
+}
+
+.margin-right-2 {
+    margin-right: 16.667%;
+}
+
+.margin-right-3 {
+    margin-right: 25%;
+}
+
+.margin-right-4 {
+    margin-right: 33.333%;
+}
+
+.margin-left-minimal {
+    margin-left: 1px;
+}
+
+.margin-right-minimal {
+    margin-right: 1px;
+}
+
+.margin-left-5 {
+    margin-left: 5%;
+}
+
+.margin-left-4-5 {
+    margin-left: 37.499%;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-right-auto {
+    margin-right: auto;
 }

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CodersGrill.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240726233310_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240809152510_Header-Updated")]
+    partial class HeaderUpdated
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -141,8 +141,16 @@
       "PackagePath": "staticwebassets\\images\\5-icons\\instagram.svg"
     },
     {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\linkedin.svg",
+      "PackagePath": "staticwebassets\\images\\5-icons\\linkedin.svg"
+    },
+    {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\twitter.svg",
       "PackagePath": "staticwebassets\\images\\5-icons\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\youtube.svg",
+      "PackagePath": "staticwebassets\\images\\5-icons\\youtube.svg"
     },
     {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\ajax-loader.gif",

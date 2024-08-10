@@ -1,6 +1,17 @@
 console.log("site.js initialized!");
 
 $(function () {
+    console.log("site.js is loaded and running");
+
+    const elements = document.querySelectorAll('[data-new-gr-c-s-check-loaded]');
+    console.log(elements);
+
+    elements.forEach(el => {
+        el.style.display = 'none';
+    });
+});
+
+$(function () {
     console.log('Carousel 1');
     try {
         $(".image-slider").slick({

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "grIjZaXQWN9fnYRpFNUdF7kUcirDLjeD1EAtQ7ELwgU=",
+  "Hash": "lqcBfZolr+peT78DMAGDyU3Uo1abDm34LHQ/izRcL/Q=",
   "Source": "CodersGrill",
   "BasePath": "_content/CodersGrill",
   "Mode": "Default",
@@ -682,6 +682,25 @@
       "OriginalItemSpec": "wwwroot\\images\\5-icons\\instagram.svg"
     },
     {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\linkedin.svg",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "images/5-icons/linkedin.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5-icons\\linkedin.svg"
+    },
+    {
       "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\twitter.svg",
       "SourceId": "CodersGrill",
       "SourceType": "Discovered",
@@ -699,6 +718,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\5-icons\\twitter.svg"
+    },
+    {
+      "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\5-icons\\youtube.svg",
+      "SourceId": "CodersGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\",
+      "BasePath": "_content/CodersGrill",
+      "RelativePath": "images/5-icons/youtube.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5-icons\\youtube.svg"
     },
     {
       "Identity": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\ajax-loader.gif",

@@ -15,12 +15,13 @@ namespace CodersGrill.Data
             var textContents = new[]
 
             {
-                new TextContent(1, "Main Header", "<h1>The Coders' Grill</h1>"),
+                new TextContent(1, "Main Header", "<h1>The Coders' Grill Restaurant</h1>"),
                 new TextContent(1, "Navigation", "<a href='#'>Our Menu</a>"),
                 new TextContent(1, "Navigation", "<a href='#'>About Us</a>"),
                 new TextContent(1, "Navigation", "<a href='#'>Our Locations</a>"),
                 new TextContent(1, "Navigation", "<a href='#'>Help & FAQs</a>"),
-                                                
+                new TextContent(1, "Navigation", "<a href='#'>Contact Us</a>"),
+
                 new TextContent(2, "Header", "<h2>Chef's Recommendations</h2>"),
                 new TextContent(2, "Name", "<h3>Sunday Roast</h3>"),
                 new TextContent(2, "Description", "<p>Enjoy our traditional Sunday roast featuring succulent, slow-cooked beef, Yorkshire pudding, roasted potatoes, and seasonal vegetables, all served with a rich gravy</p>"),
