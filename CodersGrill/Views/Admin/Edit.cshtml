@@ -1,34 +1,40 @@
 ﻿@model CodersGrill.Models.TextContent
 
-<h2>Edit Content</h2>
-
-<form asp-action="Edit">
-    <div class="form-group">
-        <label asp-for="Section" class="control-label"></label>
-        <input asp-for="Section" class="form-control" readonly />
-        <span asp-validation-for="Section" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="ContentType" class="control-label"></label>
-        <input asp-for="ContentType" class="form-control" readonly />
-        <span asp-validation-for="ContentType" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="HtmlContent" class="control-label"></label>
-        <textarea asp-for="HtmlContent" class="form-control"></textarea>
-        <span asp-validation-for="HtmlContent" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Save" class="btn btn-primary" />
-    </div>
-</form>
-
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="custom-admin-page">
+    <header class="grid-x custom-admin-banner" role="banner">
+        <div class="cell text-center small-divide-top">
+            <h2>Edit Content</h2>
+        </div>
+    </header>
+    <main>
+        <div class="grid-x grid-padding-x align-center section-divide">
+            <div class="cell medium-8">
+                <form asp-action="Edit">
+                    <div class="cell">
+                        <label asp-for="Section">Section</label>
+                        <input asp-for="Section" class="input-group-field" readonly />
+                        <span asp-validation-for="Section" class="form-error is-visible"></span>
+                    </div>
+                    <div class="cell">
+                        <label asp-for="ContentType">Content Type</label>
+                        <input asp-for="ContentType" class="input-group-field" readonly />
+                        <span asp-validation-for="ContentType" class="form-error is-visible"></span>
+                    </div>
+                    <div class="cell">
+                        <label asp-for="HtmlContent">HTML Content</label>
+                        <textarea asp-for="HtmlContent" class="input-group-field" rows="5"></textarea>
+                        <span asp-validation-for="HtmlContent" class="form-error is-visible"></span>
+                    </div>
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell auto">
+                            <a asp-action="Index" class="button secondary">Back to List</a>
+                        </div>
+                        <div class="cell shrink">
+                            <input type="submit" value="Save Changes" class="button primary" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
 </div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

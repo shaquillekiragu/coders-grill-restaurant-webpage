@@ -10,6 +10,7 @@
         <link type="text/css" rel="stylesheet" href="@Url.Content("~/css/slick.css")" />
         <link type="text/css" rel="stylesheet" href="@Url.Content("~/css/slick-theme.css")" />
         <link type="text/css" rel="stylesheet" href="@Url.Content("~/css/carousels.css")" />
+        <link type="text/css" rel="stylesheet" href="@Url.Content("~/css/admin-dashboard.css")" />
     </head>
     <body>
         @RenderBody()
@@ -20,5 +21,7 @@
         <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
         <script type="text/javascript" src="@Url.Content("~/js/slick.js")"></script>
         <script type="text/javascript" src="@Url.Content("~/js/site.js")"></script>
+
+        @RenderSection("Scripts", required: false)
     </body>
 </html>

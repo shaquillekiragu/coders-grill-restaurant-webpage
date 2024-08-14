@@ -1,5 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using CodersGrill.Models;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Linq;
 
 namespace CodersGrill.Data
 {
@@ -13,9 +17,8 @@ namespace CodersGrill.Data
             Console.WriteLine("Starting seeding...");
 
             var textContents = new[]
-
             {
-                new TextContent(1, "Main Header", "<h1>The Coders' Grill Restaurant</h1>"),
+                new TextContent(1, "Main Header", "<h1>The Coders' Grill</h1>"),
                 new TextContent(1, "Navigation", "<a href='#'>Our Menu</a>"),
                 new TextContent(1, "Navigation", "<a href='#'>About Us</a>"),
                 new TextContent(1, "Navigation", "<a href='#'>Our Locations</a>"),
@@ -41,7 +44,7 @@ namespace CodersGrill.Data
                 new TextContent(4, "Name", "<h3>Starters</h3>"),
                 new TextContent(4, "Name", "<h3>Mains</h3>"),
                 new TextContent(4, "Name", "<h3>Desserts</h3>"),
-                new TextContent(4, "Name", "<h3>Vegan/Vegetarian</h3>"),
+                new TextContent(4, "Name", "<h3>Vegan</h3>"),
                 new TextContent(4, "Name", "<h3>Sides</h3>"),
                 new TextContent(4, "Name", "<h3>Kids' Menu</h3>"),
                 new TextContent(4, "Name", "<h3>Drinks & Beverages</h3>"),
@@ -55,26 +58,35 @@ namespace CodersGrill.Data
                 new TextContent(5, "Information", "<p>email us customer.support@codersgrill.co.uk</p>")
             };
 
-            foreach (var content in textContents)
+            if (!context.TextContents.Any())
             {
-                var existingContent = context.TextContents.FirstOrDefault(tc => tc.Id == content.Id);
-                if (existingContent != null)
+                foreach (var content in textContents)
                 {
-                    existingContent.Section = content.Section;
-                    existingContent.ContentType = content.ContentType;
-                    existingContent.HtmlContent = content.HtmlContent;
-                    context.TextContents.Update(existingContent);
-                    Console.WriteLine($"Updated: {existingContent.Id}");
-                }
-                else
-                {
-                    context.TextContents.Add(content);
-                    Console.WriteLine($"Added: {content.Id}");
-                }
-            }
+                    var existingContent = context.TextContents
+                        .FirstOrDefault(tc => tc.Id == content.Id);
 
-            context.SaveChanges();
-            Console.WriteLine("Seeding complete.");
+                    if (existingContent != null)
+                    {
+                        existingContent.Section = content.Section;
+                        existingContent.ContentType = content.ContentType;
+                        existingContent.HtmlContent = content.HtmlContent;
+                        context.TextContents.Update(existingContent);
+                        Console.WriteLine($"Updated: {existingContent.Id}");
+                    }
+                    else
+                    {
+                        context.TextContents.Add(content);
+                        Console.WriteLine($"Added: {content.Id}");
+                    }
+                }
+
+                context.SaveChanges();
+                Console.WriteLine("Seeding complete.");
+            }
+            else
+            {
+                Console.WriteLine("Database already contains data. Skipping seeding.");
+            }
         }
     }
 }

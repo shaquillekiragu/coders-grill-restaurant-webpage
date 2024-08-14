@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\admin-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\admin-dashboard.css"
+    },
+    {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\carousels.css",
       "PackagePath": "staticwebassets\\css\\carousels.css"
     },
@@ -45,36 +49,24 @@
       "PackagePath": "staticwebassets\\images\\0-header\\search.svg"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-2.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen-2.jpg"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\old2.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\old2.jpg"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-3.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen-3.jpg"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\old3.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\old3.jpg"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen-4.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen-4.jpg"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\one.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\one.jpg"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\kitchen.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\kitchen.jpg"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\three.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\three.jpg"
     },
     {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\large-view.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\large-view.jpg"
-    },
-    {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view-2.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\small-view-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view-3.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\small-view-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\small-view.jpg",
-      "PackagePath": "staticwebassets\\images\\1-sliding-images\\small-view.jpg"
+      "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\1-sliding-images\\two.jpg",
+      "PackagePath": "staticwebassets\\images\\1-sliding-images\\two.jpg"
     },
     {
       "Id": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\images\\2-meal-images\\chicken.jpg",

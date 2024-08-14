@@ -6,11 +6,17 @@
     background-color: antiquewhite;
 }
 
-.custom-header-footer {
+.custom-banner-footer {
     background-color: darkolivegreen;
 }
 
 /* HEADER - SECTION 1: */
+.custom-admin-link a {
+    margin-right: 4vw;
+    font-family: sans-serif;
+    font-size: 100%;
+    color: darkblue;
+}
 
 .custom-nav-link {
     font-size: 2vh;
@@ -21,19 +27,28 @@
 }
 
 .custom-search-form {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
     height: 40px;
 }
 
-.custom-search-button {
+.custom-search-input {
+    padding: 0;
+    border: 0;
+    width: 100%;
     height: 100%;
-    width: 40px;
-    position: relative;
-    left: -15%;
+}
+
+.custom-search-button {
+    width: 32px !important;
+    height: 80%;
+    margin: 4px 0;
 }
 
 .custom-search-button img {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 .custom-search-button:hover {
@@ -41,21 +56,27 @@
 }
 
 /* MAIN - SECTION 2: */
-
 .custom-chef-rec-cell {
-    
+    max-height: 150vw;
+}
+
+.custom-chef-rec-header {
+    height: 4vh;
 }
 
 .custom-chef-rec-img {
-    height: 30vh;
+    overflow: hidden;
+    padding-bottom: 1vw;
 }
 
 .custom-chef-rec-img img {
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 
 .custom-chef-rec-desc {
-    font-size: 2.2vh
+    font-size: 2.2vh;
+    overflow: hidden;
 }
 
 .custom-chef-rec-button {
@@ -63,33 +84,72 @@
 }
 
 /* MAIN - SECTION 3: */
-
 .custom-special-offers {
     background-color: rgb(200, 200, 200);
+    width: 75vw;
 }
 
 .custom-special-cells {
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin: 0 8vw 0 8vw;
 }
 
 .custom-special-cell {
     background-color: white;
-    height: 50vh;
+    width: 60vw;
+    max-width: 600px;
+    aspect-ratio: 1/1;
 }
 
 .custom-special-img {
     overflow: hidden;
+    width: 100%;
 }
 
 .custom-special-img img {
     object-fit: cover;
 }
 
-/* MAIN - SECTION 4: */
+.custom-special-desc {
+    width: 100%;
+    font-size: 1.8vh;
+}
 
+.custom-special-desc p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN - SECTION 4: */
 .custom-menu-cat {
-    height: 70vh;
+    width: 100%;
+    height: 44vw;
+}
+
+.custom-menu-cat-header {
+    width: 100%;
+    height: 4vw;
+}
+
+.custom-menu-cat-header h2 {
+    font-size: 3vh !important;
+}
+
+.custom-menu-cat-cell {
+    width: 100%;
+    height: 40vw;
+}
+
+.custom-menu-cat-name {
+    width: 100%;
+    height: 20vw;
+    margin-top: 2vw;
+}
+
+.custom-menu-cat-name h3 {
+    height: 100%;
+    font-size: 2.4vh !important;
+    flex-wrap: wrap;
 }
 
 /* FOOTER - SECTION 5: */
@@ -100,15 +160,15 @@
 }
 
 .custom-footer-font-l {
-    font-size: 1.25rem;
+    font-size: 2.8vh;
 }
 
 .custom-footer-font-s {
-    font-size: 0.9rem;
+    font-size: 2.1vh;
 }
 
 .custom-footer-navbar {
-    font-size: 0.8rem;
+    font-size: 1.8vh;
     width: 83vw;
 }
 

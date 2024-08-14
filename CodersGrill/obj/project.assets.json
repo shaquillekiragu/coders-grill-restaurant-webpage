@@ -4335,11 +4335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\CodersGrill.csproj",
+      "projectUniqueName": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\CodersGrill.csproj",
       "projectName": "CodersGrill",
-      "projectPath": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\CodersGrill.csproj",
+      "projectPath": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\CodersGrill.csproj",
       "packagesPath": "C:\\Users\\shaqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\obj\\",
+      "outputPath": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",

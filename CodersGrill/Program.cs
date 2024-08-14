@@ -21,12 +21,17 @@ using (var scope = app.Services.CreateScope())
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred seeding the DB.");
+        logger.LogError(ex, "An error occurred seeding the database.");
     }
 }
 
-if (!app.Environment.IsDevelopment()) {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
+if (!app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
@@ -38,6 +43,11 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
+);
+
+app.MapControllerRoute(
+    name: "admin",
+    pattern: "Admin/{controller=Admin}/{action=Dashboard}/{id?}"
 );
 
 app.Run();

@@ -1,5 +1,9 @@
 /* GENERAL RULES: */
 
+.custom-shrink {
+    display: table;
+}
+
 .expand-width {
     width: 100%
 }
@@ -14,14 +18,15 @@ h1 {
 
 h2, h3 {
     color: rgba(10, 100, 100, 0.75);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 3.2vh;
 }
 
 h3 {
-    font-size: 1.5vw;
+    font-size: 2.5vh;
 }
 
 .no-wrap {
@@ -34,31 +39,36 @@ h3 {
     align-items: center;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /* MARGINS: */
 
+.main-margins {
+    margin: 0 12.5%;
+}
+
 .section-divide {
-    margin-top: 3rem;
+    margin-top: 5vh;
 }
 
 .small-divide-top {
-    margin-top: 1rem;
+    margin-top: 2vh;
 }
 
 .small-divide-bottom {
-    margin-bottom: 1rem;
+    margin-bottom: 2vh;
 }
 
-.no-margin-padding {
-    padding: 0;
-    margin: 0;
+.medium-divide-top {
+    margin-top: 3.5vh;
 }
 
-.no-padding {
-    padding: 0;
-}
-
-.main-margins {
-    margin: 0 12.5% 0 12.5%;
+.medium-divide-bottom {
+    margin-bottom: 3.5vh;
 }
 
 .margin-right-1 {
@@ -93,14 +103,15 @@ h3 {
     margin-left: 37.499%;
 }
 
-.margin-top-15 {
-    margin-top: 15px;
-}
-
-.margin-bottom-15 {
-    margin-bottom: 15px;
-}
-
 .margin-right-auto {
     margin-right: auto;
+}
+
+.no-margin-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
 }

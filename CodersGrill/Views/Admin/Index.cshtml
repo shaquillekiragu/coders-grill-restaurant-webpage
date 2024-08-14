@@ -1,32 +1,49 @@
 ﻿@model IEnumerable<CodersGrill.Models.TextContent>
 
-<h1>Admin - Edit Content</h1>
-
-<form method="post" asp-action="UpdateContent">
-    <table>
-        <thead>
-            <tr>
-                <th>Section</th>
-                <th>Content Type</th>
-                <th>HtmlContent</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+@*SECTION 1*@
+<div class="custom-admin-page">
+    <header class="grid-x custom-admin-banner" role="banner">
+        <div class="cell text-right small-divide-top custom-admin-link">
+            <a href="@Url.Action("Index", "Home")" aria-label="Home Page">Back to Home</a>
+        </div>
+        <div class="cell text-center custom-admin-header">
+            @Model.Where(tc => tc.Section == 1 && tc.ContentType == "Main Header").Select(tc => Html.Raw(tc.HtmlContent)).FirstOrDefault()
+            <h1> - Admin Dashboard</h1>
+        </div>
+    </header>
+    @*SECTION 2: Display and Manage Content*@
+    <main class="custom-admin-main">
+        <div class="text-center small-divide-top small-divide-bottom custom-admin-sub-header">
+            <h2>Manage Text Content</h2>
+        </div>
+        <table class="hover custom-table">
+            <thead>
                 <tr>
-                    <td>@item.Section</td>
-                    <td>@item.ContentType</td>
-                    <td>
-                        <textarea name="HtmlContent" rows="4" cols="50">@item.HtmlContent</textarea>
-                        <input type="hidden" name="Id" value="@item.Id" />
-                    </td>
-                    <td>
-                        <button type="submit">Save</button>
-                    </td>
+                    <th>Section</th>
+                    <th>Content Type</th>
+                    <th>Html Content</th>
+                    <th>Actions</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-</form>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Section</td>
+                        <td>@item.ContentType</td>
+                        <td>
+                            <div class="custom-referenced-content">
+                                @Html.Raw(item.HtmlContent)
+                            </div>
+                        </td>
+                        <td>
+                            <div class="custom-action-buttons">
+                                <a href="@Url.Action("Edit", "Admin", new { id = item.Id })" class="button" aria-label="Edit Content">Edit</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </main>
+</div>

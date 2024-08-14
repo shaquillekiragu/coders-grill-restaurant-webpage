@@ -1,0 +1,67 @@
+﻿/* Admin Index.cshtml */
+
+.custom-admin-page {
+    background-color: antiquewhite;
+    min-width: 750px;
+    min-height: 2800px;
+}
+
+.custom-admin-banner {
+    background-color: darkolivegreen !important;
+    min-width: 750px;
+    min-height: 20vh;
+}
+
+.custom-admin-banner h2 {
+    font-size: 5vh;
+    color: black;
+    margin: 5vh 0;
+}
+
+.custom-admin-header {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.custom-admin-header h1 {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: black !important;
+    display: inline-block;
+    margin: 0;
+    font-size: 4vh;
+}
+
+.custom-admin-main {
+    min-width: 750px;
+    min-height: 80vh;
+}
+
+.custom-admin-sub-header h2 {
+    color: black;
+    font-size: 3vh;
+}
+
+.custom-table {
+    width: 80%;
+    margin: 0 10% 100px 10%;
+}
+
+.custom-referenced-content h1,
+.custom-referenced-content h2,
+.custom-referenced-content h3 {
+    font-size: 2.75vh;
+}
+
+.custom-referenced-content a,
+.custom-referenced-content p {
+    font-size: 2.25vh;
+}
+
+.custom-action-buttons a {
+    width: 100%
+}
+
+
+/* Admin Edit.cshtml */
+

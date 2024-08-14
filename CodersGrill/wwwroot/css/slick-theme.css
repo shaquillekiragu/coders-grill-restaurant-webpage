@@ -17,9 +17,8 @@
 .slick-next {
     font-size: 0;
     line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
+    position: relative;
+    bottom: -32%;
     width: 20px;
     height: 20px;
     padding: 0;
@@ -30,7 +29,6 @@
     border: none;
     outline: none;
     z-index: 1;
-    color: red
 }
 
 .slick-prev:hover,
@@ -60,13 +58,9 @@
     font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: white;
+    color: black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.slick-prev {
-    left: 25px;
 }
 
 [dir='rtl'] .slick-prev {
@@ -80,10 +74,6 @@
 
 [dir='rtl'] .slick-prev:before {
     content: '→';
-}
-
-.slick-next {
-    right: 25px;
 }
 
 [dir='rtl'] .slick-next {
@@ -110,6 +100,7 @@
     margin: 0;
     list-style: none;
     text-align: right;
+    left: -5vw;
 }
 
 .slick-dots li {

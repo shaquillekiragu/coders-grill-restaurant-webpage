@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\rules.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\rules.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\slick.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\slick.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\slick-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\slick-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\carousels.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\carousels.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\data\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\data\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\custom-classes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\custom-classes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\data\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\data\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\rules.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\rules.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\custom-classes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\custom-classes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContextSeed.cs",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Data\\ApplicationDbContextSeed.cs",
               "RelativeDocumentMoniker": "CodersGrill\\Data\\ApplicationDbContextSeed.cs",
               "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Data\\ApplicationDbContextSeed.cs",
               "RelativeToolTip": "CodersGrill\\Data\\ApplicationDbContextSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T15:29:14.168Z",
               "IsPinned": true,
@@ -60,97 +68,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CodersGrill\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CodersGrill\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAG4AAAA4AAAA",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodersGrill\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CodersGrill\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAACaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T19:08:13.686Z",
+              "WhenOpened": "2024-08-12T16:20:20.711Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CodersGrill\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CodersGrill\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABOAAAA",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CodersGrill\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "CodersGrill\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T19:06:49.404Z",
+              "WhenOpened": "2024-08-12T16:20:12.779Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "slick.css",
-              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick.css",
-              "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\slick.css",
-              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick.css",
-              "RelativeToolTip": "CodersGrill\\wwwroot\\css\\slick.css",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABQAAAAXAAAA",
+              "Title": "admin-dashboard.css",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\admin-dashboard.css",
+              "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\admin-dashboard.css",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\admin-dashboard.css",
+              "RelativeToolTip": "CodersGrill\\wwwroot\\css\\admin-dashboard.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-08T20:49:23.733Z",
+              "WhenOpened": "2024-08-12T16:19:53.658Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "slick-theme.css",
-              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick-theme.css",
-              "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\slick-theme.css",
-              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\slick-theme.css",
-              "RelativeToolTip": "CodersGrill\\wwwroot\\css\\slick-theme.css",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAAAGwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-08T20:49:29.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "rules.css",
-              "DocumentMoniker": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
-              "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\rules.css",
-              "ToolTip": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
-              "RelativeToolTip": "CodersGrill\\wwwroot\\css\\rules.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-31T13:06:46.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "carousels.css",
-              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\carousels.css",
-              "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\carousels.css",
-              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\carousels.css",
-              "RelativeToolTip": "CodersGrill\\wwwroot\\css\\carousels.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-08T20:06:46.028Z",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CodersGrill\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\shaqu\\Source\\Repos\\verto-test-project\\CodersGrill\\Views\\Shared\\_ValidationScriptsPartial.cshtml*",
+              "RelativeToolTip": "CodersGrill\\Views\\Shared\\_ValidationScriptsPartial.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T01:07:41.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CodersGrill\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CodersGrill\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T00:49:10.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Program.cs",
+              "RelativeDocumentMoniker": "CodersGrill\\Program.cs",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Program.cs",
+              "RelativeToolTip": "CodersGrill\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T00:43:34.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CodersGrill\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CodersGrill\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAwwGoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T00:43:10.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "custom-classes.css",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\custom-classes.css",
               "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\custom-classes.css",
               "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\custom-classes.css",
               "RelativeToolTip": "CodersGrill\\wwwroot\\css\\custom-classes.css",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAFEAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-01T23:41:15.177Z",
               "EditorCaption": ""
@@ -158,6 +176,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "rules.css",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
+              "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\rules.css",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
+              "RelativeToolTip": "CodersGrill\\wwwroot\\css\\rules.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-31T13:06:46.832Z",
+              "EditorCaption": ""
             }
           ]
         }
