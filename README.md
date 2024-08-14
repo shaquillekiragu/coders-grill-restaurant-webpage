@@ -4,6 +4,14 @@
 
 Coders' Grill is a web application that serves as a restaurant landing page. It has been written in C# and has been built using ASP.NET Core and Entity Framework Core. MVC is the backend architecture of choice and has been used for managing and displaying text content in a structured way. Through a Content Management System, administrators are able to create, edit, and manage text content on this website.
 
+## Directory Structure
+
+- wwwroot: Contains static files such as CSS stylesheets, JavaScript files, and JPEG images
+- Controllers: Contains the MVC controllers that handle HTTP requests
+- Data: Contains the database context and seed data
+- Models: Contains the data model file establishing the project's data structure
+- Views: Contains Razor views used to render HTML responses
+
 ## Requirements
 
 - .NET SDK **v8.0** or newer
