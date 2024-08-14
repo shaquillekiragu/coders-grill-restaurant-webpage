@@ -34,11 +34,11 @@ To install all the required dependencies, run:
 dotnet restore
 ```
 
-Edit the **appsettings.json** file to set the connection string for your database:
+Edit the **appsettings.json** file to set the connection string for your database, replacing the server and database names in the code below:
 
 ```
 "ConnectionStrings": {
-  "DefaultConnection": "Server=your_server;Database=your_database;"
+  "DefaultConnection": "Server=your_server;Database=your_database;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
 }
 ```
 
