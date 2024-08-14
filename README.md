@@ -38,7 +38,7 @@ Edit the **appsettings.json** file to set the connection string for your databas
 
 ```
 "ConnectionStrings": {
-  "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
+  "DefaultConnection": "Server=your_server;Database=your_database;"
 }
 ```
 
@@ -56,4 +56,4 @@ To run this project once installed and setup, run:
 dotnet run
 ```
 
-Thank you for engaging with this project, I hope you enjoy it.
+Thank you for engaging with this project, I hope you enjoy it!
