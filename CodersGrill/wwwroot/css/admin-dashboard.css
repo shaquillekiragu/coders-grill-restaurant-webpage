@@ -1,5 +1,3 @@
-﻿/* Admin Index.cshtml */
-
 .custom-admin-page {
     background-color: antiquewhite;
     min-width: 750px;
@@ -61,7 +59,3 @@
 .custom-action-buttons a {
     width: 100%
 }
-
-
-/* Admin Edit.cshtml */
-
