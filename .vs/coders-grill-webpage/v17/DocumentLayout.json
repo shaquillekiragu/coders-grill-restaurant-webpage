@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|c:\\users\\shaqu\\source\\repos\\verto-test-project\\codersgrill\\wwwroot\\css\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{89CDAD83-A7F4-473A-8894-EBF54C7B5DFD}|CodersGrill\\CodersGrill.csproj|solutionrelative:codersgrill\\wwwroot\\css\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -34,20 +38,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "admin-dashboard.css",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\admin-dashboard.css",
               "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\admin-dashboard.css",
               "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\admin-dashboard.css",
               "RelativeToolTip": "CodersGrill\\wwwroot\\css\\admin-dashboard.css",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-12T16:19:53.658Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodersGrill\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CodersGrill\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABkBAAAAAAAAAAAAACkBAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T23:04:33.86Z",
               "EditorCaption": ""
             },
             {
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContextSeed.cs",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Data\\ApplicationDbContextSeed.cs",
               "RelativeDocumentMoniker": "CodersGrill\\Data\\ApplicationDbContextSeed.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Admin\\Edit.cshtml",
               "RelativeDocumentMoniker": "CodersGrill\\Views\\Admin\\Edit.cshtml",
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "CodersGrill\\Views\\Admin\\Index.cshtml",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "custom-classes.css",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\custom-classes.css",
               "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\custom-classes.css",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "rules.css",
               "DocumentMoniker": "C:\\Users\\shaqu\\source\\repos\\verto-test-project\\CodersGrill\\wwwroot\\css\\rules.css",
               "RelativeDocumentMoniker": "CodersGrill\\wwwroot\\css\\rules.css",
